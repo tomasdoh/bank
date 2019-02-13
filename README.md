@@ -4,7 +4,7 @@ A command line application that models a bank account. The user can deposit, wit
 ## User stories
 ```
 As a new customer,
-I want to create a new account,
+I want to create an account,
 So that I have somewhere to put my earnings.
 ```
 ```
