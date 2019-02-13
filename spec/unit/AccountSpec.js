@@ -16,4 +16,11 @@ let account;
     expect(account.getBalance()).toEqual(25);
   });
 
+  it('user can withdraw money from account', function() {
+    account = new Account();
+    account.deposit(25)
+    account.withdraw(20)
+    expect(account.getBalance()).toEqual(5);
+  });
+
 });
