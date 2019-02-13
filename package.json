@@ -1,0 +1,19 @@
+{
+  "name": "bank-tech-test",
+  "version": "1.0.0",
+  "description": "a command line application that models a bank account",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasdoh/bank.git"
+  },
+  "author": "Tomas Doherty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomasdoh/bank/issues"
+  },
+  "homepage": "https://github.com/tomasdoh/bank#readme"
+}
