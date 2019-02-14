@@ -5,6 +5,6 @@ describe('Statement', function () {
 
   it('can print a header', () => {
     const statement = new Statement();
-    expect(statement.header()).toEqual("date || credit || debit || balance")
+    expect(statement.header()).toEqual('date || credit || debit || balance');
   });
 });
