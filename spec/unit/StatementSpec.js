@@ -3,4 +3,4 @@ describe('Statement', function () {
 
   let statement;
 
-}
+})
