@@ -3,7 +3,7 @@ A command line application that models a bank account. The user can deposit, wit
 
 ## Approach
 
-My main focus during this tech test was to focus on object-oriented design and clean code. I decided to use Node.js and to test-drive with Jasmine so that I could strengthen my knowledge of both.
+During this tech test my main focus was on object-oriented design and clean code. I decided to use Node.js and to test-drive with Jasmine so that I could strengthen my knowledge of both.
 
 ## Testing
 
