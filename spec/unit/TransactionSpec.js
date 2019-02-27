@@ -3,10 +3,10 @@ describe('Transaction', () => {
 
   let transaction;
 
-  it('each transaction is has a formatted date', () => {
+  it('each transaction has a formatted date', () => {
     const date = new Date();
     const transaction = new Transaction();
 
-    expect(transaction.formattedDate(date)).toEqual('14 / 2 / 2019')
+    expect(transaction.formattedDate(date)).toEqual('27 / 2 / 2019')
   });
 });

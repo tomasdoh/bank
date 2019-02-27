@@ -1,4 +1,4 @@
-describe('Statement', function () {
+describe('Statement', () => {
   const Statement = require('../../src/Statement')
 
   let statement;
