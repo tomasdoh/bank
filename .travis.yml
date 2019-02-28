@@ -6,7 +6,8 @@ addons:
         repo_token: ecf35237439f9f7723bad29f533955f0061f3cd44e14fb2d655a57c72a6107fe
 script: npm test
 before_script:
-  - npm install test-reporter istanbul -g
+  - npm install test-reporter -g
+  - npm install nyc -g
   - npm install
 after_script:
   - codeclimate-test-reporter < ./coverage/lcov.info

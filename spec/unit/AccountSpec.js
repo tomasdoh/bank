@@ -1,5 +1,7 @@
 describe('Account', () => {
   const Account = require('../../src/Account');
+  const Transaction = require('../../src/Transaction');
+  const Statement = require('../../src/Statement');
 
   let account;
 
@@ -21,4 +23,12 @@ describe('Account', () => {
     account.withdraw(20);
     expect(account.getBalance()).toEqual(5);
   });
+
+  describe('statement()', () => {
+    it('has no transactions to begin with', () => {
+      var emptyStatement = new Statement();
+      expect(account.statement()).toEqual(emptyStatement);
+    })
+  })
+
 });
