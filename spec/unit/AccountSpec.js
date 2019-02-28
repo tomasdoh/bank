@@ -26,7 +26,8 @@ describe('Account', () => {
 
   describe('statement()', () => {
     it('has no transactions to begin with', () => {
-      var emptyStatement = new Statement();
+      let statement = new Statement;
+      let emptyStatement = statement.header();
       expect(account.statement()).toEqual(emptyStatement);
     })
   })
